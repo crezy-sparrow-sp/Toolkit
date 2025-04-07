@@ -3,8 +3,9 @@ title JavaFX Toolkit Launcher - SP
 cls
 setlocal enabledelayedexpansion
 
-set "PROJECT_DIR=C:\Users\ADMIN\Documents\Toolkit\java"
-set "FX_LIB=C:\Users\ADMIN\Documents\Toolkit\javafx-sdk-21.0.6\lib"
+set "PROJECT_DIR={your_project_folder_path}"
+set "FX_LIB={your_javafx_lib_folder_path}"
+@REM  you can copy and paste the path from any where also from downloads 
 
 cd /d "%PROJECT_DIR%"
 :menu
